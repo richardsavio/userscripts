@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         BigD Customization
-// @namespace    https://richarsavio.com
+// @namespace    https://github.com/richardsavio/userscripts
 // @author       Richard Savio
 // @description  Customize bigdecisions pages
 // @version      0.1

@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Remove Outlook Header Background
-// @namespace    https://richardsavio.com
+// @namespace    https://github.com/richardsavio/userscripts
 // @author       Richard Savio
 // @description  Remove outlook header background image
 // @version      0.1

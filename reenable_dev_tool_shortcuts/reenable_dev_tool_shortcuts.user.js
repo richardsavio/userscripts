@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           Re-enable dev tools shortcuts
-// @namespace      https://richardsavio.com
+// @namespace      https://github.com/richardsavio/userscripts
 // @author         Richard Savio
 // @description    Stop websites from hijacking dev tools shortcuts
 // @version        0.1
