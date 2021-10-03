@@ -7,7 +7,7 @@
 // @run-at         document-start
 // @include        *
 // @grant          none
-// ==UserScript==
+// ==/UserScript==
 
 // https://superuser.com/a/595885
 
