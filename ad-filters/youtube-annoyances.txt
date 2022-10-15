@@ -2,3 +2,9 @@
 ||youtube.com/live_chat
 ||youtube.com/live_chat_replay
 www.youtube.com###chat
+
+! Recommended movies
+www.youtube.com##ytd-rich-shelf-renderer.ytd-rich-section-renderer:has(span:has-text(/Recommended movies/i))
+
+! Youtube sidebar on videos with list of related videos
+www.youtube.com###related
