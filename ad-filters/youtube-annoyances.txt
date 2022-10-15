@@ -1,0 +1,4 @@
+! Disable youtube live chat
+||youtube.com/live_chat
+||youtube.com/live_chat_replay
+www.youtube.com###chat
