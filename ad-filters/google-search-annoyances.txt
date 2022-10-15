@@ -1,5 +1,6 @@
 ! Google search result knowledge block that pops up on the right side
 www.google.com###rhs
+
 ! Google useless stuff
 ! People also ask, Videos, Related images, Top Stories
 ! The selector is very general and might block useful stuff
