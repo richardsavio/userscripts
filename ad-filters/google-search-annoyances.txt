@@ -1,3 +1,7 @@
+! Google search result stats row (total results and time)
+! Commented out because there needs to be some padding introduced
+! www.google.com###extabar
+
 ! Google search result knowledge block that pops up on the right side
 www.google.com###rhs
 
