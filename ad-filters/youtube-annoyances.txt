@@ -3,6 +3,9 @@
 ||youtube.com/live_chat_replay
 www.youtube.com###chat
 
+! Latest Youtube Posts
+www.youtube.com##ytd-rich-shelf-renderer.ytd-rich-section-renderer:has(span:has-text(/Latest YouTube posts/i))
+
 ! Recommended movies
 www.youtube.com##ytd-rich-shelf-renderer.ytd-rich-section-renderer:has(span:has-text(/Recommended movies/i))
 
