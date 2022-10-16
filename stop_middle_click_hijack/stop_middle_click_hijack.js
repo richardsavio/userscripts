@@ -20,7 +20,10 @@
 (function() {
     //Adapted from Chrome extension (written by petergrabs@yahoo.com)
     document.addEventListener("click", function(e) {
-        if (e.button === 1 || (e.button === 0 && e.ctrlKey)) {
+        // Block both middle click and CTRL + Left Click
+        // Causes problems on Todoist
+        // if (e.button === 1 || (e.button === 0 && e.ctrlKey)) {
+        if (e.button === 1) {
             e.stopPropagation();
         }
     }, true);
