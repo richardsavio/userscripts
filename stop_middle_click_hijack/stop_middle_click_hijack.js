@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Stop Middle Click Hijacking
 // @namespace      http://whatisthisidonteven.com
-// @version        0.1
+// @version        0.2
 // @author         Nickel, Richard
 // @description    Prevent sites from hijacking the middle mouse button for their own purposes
 // @include        *
