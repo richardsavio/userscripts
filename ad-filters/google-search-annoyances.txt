@@ -1,11 +1,28 @@
 ! Google search result stats row (total results and time)
-! Commented out because there needs to be some margin introduced
-! www.google.com###extabar
+www.google.com###extabar
 
 ! Google search result knowledge block that pops up on the right side
 www.google.com###rhs
 
-! Google useless stuff
 ! People also ask, Videos, Related images, Top Stories
 ! The selector is very general and might block useful stuff
 www.google.com###rso > div.ULSxyf
+
+! Hide most rich-content results (images, stories, businesses...) in the web search
+www.google.com###rcnt > div:first-of-type:not([id]) > div:has(g-more-link,g-scrolling-carousel)
+www.google.com###rso:has(> div:nth-of-type(6)) > div:has(g-more-link,g-section-with-header)
+www.google.com###rso:has(> div:nth-of-type(6)) > div:has(div[role="heading"]+g-scrolling-carousel)
+www.google.com###kp-wp-tab-overview > div:has(g-more-link,g-section-with-header,#media_result_group)
+
+! Hide the "People also ask" contextual content
+www.google.com###rso:has(> div:nth-of-type(6)) > div:has(div.related-question-pair)
+www.google.com###kp-wp-tab-overview > div:has(div.related-question-pair)
+
+! Hide the "Related searches" bottom content
+www.google.com###botstuff #bres
+
+! Hide the "People also search for" popup shown when returning to results
+www.google.com###rso div.g div[jscontroller][id^="eob_"]
+
+! Hide the "Similar searches" contextual content in image searches
+www.google.com##div.isv-r[data-rfg]
