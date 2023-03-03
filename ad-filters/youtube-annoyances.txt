@@ -1,3 +1,9 @@
+! Title: Google Search Annoyances
+! Description: Block rich content in Google Search
+! Homepage: https://github.com/richardsavio/userscripts/tree/master/ad-filters
+!
+!-------------------------------------------------------------------------------!
+!
 ! Disable youtube live chat
 ||youtube.com/live_chat
 ||youtube.com/live_chat_replay
