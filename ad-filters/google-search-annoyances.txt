@@ -2,6 +2,7 @@
 ! Description: Block rich content in Google Search
 ! Homepage: https://github.com/richardsavio/userscripts/tree/master/ad-filters
 ! Version: 1.0.1
+!
 !-------------------------------------------------------------------------------!
 !
 ! Google search result stats row (total results and time)
