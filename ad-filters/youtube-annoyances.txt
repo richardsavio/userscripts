@@ -1,6 +1,7 @@
 ! Title: Youtube Annoyances
 ! Description: Block Youtube annoyances
 ! Homepage: https://github.com/richardsavio/userscripts/tree/master/ad-filters
+! Version: 1.1.0
 !
 !-------------------------------------------------------------------------------!
 !
