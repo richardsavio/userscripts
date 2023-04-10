@@ -15,6 +15,9 @@ www.youtube.com##ytd-rich-shelf-renderer.ytd-rich-section-renderer:has(span:has-
 ! Recommended movies
 www.youtube.com##ytd-rich-shelf-renderer.ytd-rich-section-renderer:has(span:has-text(/Recommended movies/i))
 !
+! Recommended movies
+www.youtube.com##ytd-rich-shelf-renderer.ytd-rich-section-renderer:has(span:has-text(/Top news/i))
+!
 ! Youtube sidebar on videos with list of related videos
 www.youtube.com###related
 !
