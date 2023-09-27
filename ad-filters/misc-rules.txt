@@ -1,5 +1,5 @@
 ! Title: Miscellaneous rules
-! Description: Fixes and asorted Adguard rules
+! Description: Website fixes and assorted Adguard rules
 ! Homepage: https://github.com/richardsavio/userscripts/tree/master/ad-filters
 ! Version: 1.1.0
 !
