@@ -8,3 +8,7 @@
 ! Dell product page does not open. Not sure if original filter is now fixed
 !
 @@||dell.com$cookie=/^AMCVS?_.*AdobeOrg/
+!
+! Hide GitHub Copilot promo button
+!
+github.com##react-app[app-name="react-code-view"] button[data-testid="copilot-popover-button"]
