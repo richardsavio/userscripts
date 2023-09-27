@@ -1,7 +1,7 @@
 ! Title: Youtube Annoyances
 ! Description: Block Youtube annoyances
 ! Homepage: https://github.com/richardsavio/userscripts/tree/master/ad-filters
-! Version: 1.2.1
+! Version: 1.3.0
 !
 !-------------------------------------------------------------------------------!
 !
@@ -23,6 +23,7 @@ www.youtube.com##ytd-search ytd-item-section-renderer ytd-horizontal-card-list-r
 ! Youtube playback
 !
 ! Disable youtube live chat
+!
 ! ||youtube.com/live_chat
 ! ||youtube.com/live_chat_replay
 ! www.youtube.com###chat
@@ -32,9 +33,18 @@ www.youtube.com###chat:remove()
 !
 youtube.com##+js(aeld, /^pan(start|move|end)$/)
 !
-! Youtube sidebar on videos with list of related videos
+! Related videos sidebard when watching a video
 !
 www.youtube.com###related
+m.youtube.com##ytm-watch ytm-item-section-renderer[data-content-type="related"]
+!
+! Hide video suggestions that obscure the end of the video
+!
+www.youtube.com##.ytp-ce-element
+!
+! Hide the video grid after the end of the video
+!
+www.youtube.com##.ytp-endscreen-content
 !
 ! Hide hashtags above video title
 !
