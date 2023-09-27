@@ -7,4 +7,5 @@ Tampermonkey/Greasemonkey userscripts
 * https://userscripts-mirror.org/scripts/review/187133
 
 ## Customized filter list
-* Block annoying things on Youtube and Google search results page
+* Block annoying things on Youtube and Google search results page using snippets from letsblock.it
+
