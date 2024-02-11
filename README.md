@@ -1,11 +1,13 @@
-# AdGuard Resources
+# AdGuard Filter lists and Userscripts
+Paste these URLs directly into AdGuard to add them
 
-## Userscripts
-Tampermonkey/Greasemonkey userscripts
+## Filter list URLs
 
-* https://greasyfork.org/en/scripts/23772-absolute-enable-right-click-copy
-* https://userscripts-mirror.org/scripts/review/187133
+- https://raw.githubusercontent.com/richardsavio/userscripts/master/ad-filters/google-search-annoyances.txt
+- https://raw.githubusercontent.com/richardsavio/userscripts/master/ad-filters/youtube-annoyances.txt
+- https://raw.githubusercontent.com/richardsavio/userscripts/master/ad-filters/misc-rules.txt
 
-## Customized filter list
-* Block annoying things on Youtube and Google search results page using snippets from [letsblock.it](https://letsblock.it/filters)
-
+## Userscript URLs
+- https://raw.githubusercontent.com/richardsavio/userscripts/master/userscripts/reenable_dev_tool_shortcuts.js
+- https://raw.githubusercontent.com/richardsavio/userscripts/master/userscripts/stop_middle_click_hijack.js
+- https://raw.githubusercontent.com/richardsavio/userscripts/master/userscripts/absolute_enable_right_click_copy.js
