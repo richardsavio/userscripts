@@ -1,7 +1,8 @@
 ! Title: Miscellaneous rules
 ! Description: Website fixes and assorted Adguard rules
 ! Homepage: https://github.com/richardsavio/userscripts/tree/master/ad-filters
-! Version: 1.1.1
+! Version: 1.2.0
+! Expires: 24 hours
 !
 !-------------------------------------------------------------------------------!
 !
@@ -9,6 +10,6 @@
 !
 @@||dell.com$cookie=/^AMCVS?_.*AdobeOrg/
 !
-! Hide GitHub Copilot promo button
+! Hide the youtube sidebar on open
 !
-github.com##react-app[app-name="react-code-view"] button[data-testid="copilot-popover-button"]
+www.youtube.com#%#//scriptlet('trusted-click-element', '#button[aria-pressed=true]:has(> #guide-icon.ytd-masthead)', '', '2500')
